@@ -1,0 +1,25 @@
+.Delete {
+    text-align: center;
+}
+
+.Delete h6 {
+    font-weight: 800;
+    font-size: 30px;
+}
+
+.Delete h6 span {
+    color: var(--main);
+    font-size: 13px;
+}
+
+.Delete .Btn {
+    width: max-content;
+    background: var(--main);
+    padding: 5px 15px;
+    color: #fff;
+    border-radius: 30px;
+    font-weight: 800;
+    font-size: 25px;
+    cursor: pointer;
+    margin-top: 20px;
+}

@@ -1,0 +1,30 @@
+:root {
+  --main: #ff0000;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  border: none;
+  outline: none;
+  transition: 0.2s ease-in;
+}
+
+*::selection {
+  background: var(--main);
+  color: #fff;
+}
+
+/* For Scrollbar */
+::-webkit-scrollbar {
+  width: 5px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: var(--main);
+}
+
+::-webkit-scrollbar-track {
+  background: #000;
+}

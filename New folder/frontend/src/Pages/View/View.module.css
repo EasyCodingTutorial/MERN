@@ -1,0 +1,56 @@
+ .ViewBook {
+     display: flex;
+     justify-content: center;
+     margin-bottom: 100px;
+ }
+
+ .ViewBook_Row {
+     max-width: 800px;
+     box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.3), inset 10px 10px 10px -10px rgba(0, 0, 0, 0.5);
+ }
+
+ .ViewBook_Row img {
+     width: 100%;
+ }
+
+ .ViewBook_Row .ViewBook_Box_Content {
+     padding: 20px;
+ }
+
+ .ViewBook_Box_Content h5 {
+     font-weight: 800;
+     background: var(--main);
+     width: max-content;
+     border-radius: 10px;
+     color: #fff;
+     padding: 5px 10px;
+ }
+
+ .ViewBook_Box_Content h6 {
+     font-weight: 800;
+     font-size: 30px;
+ }
+
+ .ViewBook_Box_Content .BookIntro {
+     border-left: 20px solid var(--main);
+     background: #fff;
+     padding: 20px;
+     box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.3);
+     margin-block: 10px;
+     color: #424040;
+ }
+
+ .ViewBook_Box_Content div {
+     display: flex;
+     gap: 20px;
+     margin-top: 10px;
+ }
+
+ .ViewBook_Box_Content div p {
+     font-weight: 700;
+ }
+
+ .ViewBook_Box_Content .BookDesc {
+     color: #424040;
+     margin-block: 20px;
+ }

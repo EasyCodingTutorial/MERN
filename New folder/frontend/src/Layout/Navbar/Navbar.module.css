@@ -1,0 +1,10 @@
+.Navbar {
+    display: flex;
+    justify-content: center;
+    margin-block: 30px;
+}
+
+.Navbar h6 {
+    font-weight: 800;
+    font-size: 40px;
+}

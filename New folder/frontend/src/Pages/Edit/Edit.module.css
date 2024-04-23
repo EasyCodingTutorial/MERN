@@ -1,0 +1,39 @@
+.UpdateBook {
+    display: flex;
+    justify-content: center;
+}
+
+.UpdatedBook_Row h6 {
+    font-weight: 800;
+    font-size: 30px;
+    text-align: center;
+}
+
+.UpdatedBook_Row {
+    box-shadow: 10px 10px 10px -10px rgba(0, 0, 0, 0.3), inset 10px 10px 10px -10px rgba(0, 0, 0, 0.4);
+    padding: 20px;
+}
+
+.UpdateBook .UpdateBook_Box input,
+textarea {
+    display: block;
+    padding: 20px;
+    border-bottom: 0.3px solid #000;
+    width: 800px;
+}
+
+.UpdateBook_Box textarea {
+    resize: none;
+    height: 18rem;
+}
+
+.UpdateBook_Box .Btn {
+    width: 100%;
+    background: var(--main);
+    padding: 7px 15px;
+    color: #fff;
+    font-weight: 800;
+    margin-top: 10px;
+    cursor: pointer;
+    border-radius: 999px;
+}

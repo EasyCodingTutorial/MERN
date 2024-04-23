@@ -1,0 +1,10 @@
+.BackButton {
+    margin-inline: 200px;
+    background: var(--main);
+    width: max-content;
+    color: #fff;
+    padding: 10px;
+    border-radius: 20px;
+    cursor: pointer;
+    font-size: 17px;
+}
